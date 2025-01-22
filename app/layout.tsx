@@ -14,8 +14,14 @@ const defaultUrl = process.env.VERCEL_URL
 
 export const metadata = {
   metadataBase: new URL(defaultUrl),
-  title: "Next.js and Supabase Starter Kit",
-  description: "The fastest way to build apps with Next.js and Supabase",
+  title: 'โรงเรียนบ้านหนองเบิด',
+  description: 'โรงเรียนบ้านหนองเบิด ตำบลเมืองน้อย อำเภอธวัชบุรี จังหวัดร้อยเอ็ด',
+  keywords: 'Nongberd School, โรงเรียนบ้านหนองเบิด, หนองเบิด',
+  icons: {
+    icon: '/favicon.png', // Default favicon
+    shortcut: '/favicon.ico', // Optional shortcut icon
+    apple: '/apple-touch-icon.png', // Optional Apple Touch icon
+  },
 };
 
 const geistSans = Geist({

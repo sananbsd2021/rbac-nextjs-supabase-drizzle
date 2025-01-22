@@ -102,3 +102,13 @@ Please file feedback and issues over on the [Supabase GitHub org](https://github
 - [Next.js Subscription Payments Starter](https://github.com/vercel/nextjs-subscription-payments)
 - [Cookie-based Auth and the Next.js 13 App Router (free course)](https://youtube.com/playlist?list=PL5S4mPUpp4OtMhpnp93EFSo42iQ40XjbF)
 - [Supabase Auth and the Next.js App Router](https://github.com/supabase/supabase/tree/master/examples/auth/nextjs)
+
+
+# git config --global user.name sananbsd2021
+# git config --global user.email sananbsd2021@gmail.com
+# git init
+# git add .
+# git commit -m "first commit"
+# git branch -M main
+# git remote add origin https://github.com/sananbsd2021/nongberd-v3.git
+# git push -u origin main
